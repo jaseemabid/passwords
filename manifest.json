@@ -1,0 +1,20 @@
+{
+	"name": "Secure Passwords",
+	"version": "1.0",
+	"manifest_version": 2,
+	"icons":{
+		"16": "resources/unique-passwords.png",
+		"48": "resources/unique-passwords.png",
+		"128": "resources/unique-passwords.png"
+	},
+	"description": "Secure Passwords",
+	"app": {
+      "launch": {
+          "local_path": "index.html"
+      }
+	},
+	"permissions":[
+		"http://www.labnol.org/*",
+		"http://www.crtlq.org/*"
+	]
+}
